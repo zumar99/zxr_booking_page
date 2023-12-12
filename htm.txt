@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritance Booking form</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+   
+</head>
+<body>
+    <!--nav section starts here-->
+    <header>
+        <section class="heading"><center><h1>HERITANCE</h1>
+            <h2>BOOK YOU'R STAY </h2></center>
+            </section>
+        <!-- logo-->
+        <section class="logo">
+            <img src="./heritance negamb logo.png" alt="logo">
+        </section>
+
+  
+                </nav>
+
+                </section>
+
+
+                
+            </section>
+            <!--Navigation bar-->
+        <nav id="nav">
+            <a href="./home new.htm">Home</a>
+            <a href="./ourhotes.html">Our Hotels</a>
+            <a href="./photogallery.html">photogallery</a>
+            <a href="./dinning.htm">Restaurents</a>
+            <a href="./offer.html">Offers</a>
+            <a href="./adventure.htm">Adventure</a>
+            <a href="./about us.htm">About us</a>
+            
+            
+        </nav>
+        <br>
+
+    </header>
+    <section id="Rooms-part">
+    <div class="container">
+        <form id="form-group">
+            <div id="form">
+                <h1 class="text-white text-center">Booking Now</h1>
+
+                <p></p>
+                <div id="first-group">
+
+                    <div id="name">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-nam"
+                         placeholder="First name">
+                    </div>
+
+                    <div id="mobile">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="text" id="input-mob"
+                        class="phoneno" placeholder="Phone number">
+                    </div>
+
+                    <div id="checkin">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <p id="check-in-header">Check-In&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\/</p><input type="date" id="input-checkin"
+                        class="CheckIn " placeholder="">
+                    </div>
+
+                    <div id="noadults">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-adults"
+                        class="Adultno" placeholder="No. Of Adults">
+                    </div>
+
+
+
+                </div>
+
+                <div id="second-group">
+
+
+
+                    <div id="mail">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="email" id="input-mail"
+                        class="e-mail" placeholder="Email">
+                    </div>
+
+                    <div id="promo-code">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-promo"
+                        class="Promono" placeholder="Promo-Code">
+                    </div>
+
+                    <div id="checkout">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <p id="check-out-header">Check-In&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\/</p>
+                        
+                        <input type="date" name="" id="input-checkout"  class="CheckOut" placeholder="Check-Out">
+                    </div>
+
+
+
+                
+                    <div id="nokids">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-nokid"
+                        class="Kidsno" placeholder="No.Of Kids">
+                    </div>
+            
+                </div>
+                
+                
+                
+
+                <br>
+                <br>
+
+
+                <section class="check-boxes">
+                <h1 class="text-white text-center">Room Types:</h1>
+                <section>
+                    <h2>Single Room (25,000 LKR)</h2>
+                    <p></p>
+                        <p>
+                            <label for="numSingleRooms">No. of Single Rooms:</label>
+                            <input type="number" name="num" id="SingleRooms" min="0" max="25" value="0">
+
+                            <img src="./new r4.jpg" alt="">
+
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <br>
+                    </section>
+                    <section>
+                        <h2>Double Room (35,000 LKR)</h2>
+                        <p></p>
+                            <p>
+                                <label for="numDoubleRooms">No. of Double Rooms:</label>
+                                <input type="number" name="num" id="DoubleRooms" min="0" max="10"   value="0">
+                                <br>
+
+                                <img src="./new r2.jpg" alt="">
+
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+    
+                            
+                        </section>
+                        <br>
+
+                        <section>
+                            <h2>Triple Room (40,000 LKR)</h2>
+                            
+                                <p>
+                                    <label for="numTripleRooms">No. of Triple Rooms:</label>
+                                    <input type="number" name="num" id="TripleRooms" min="0" max="25" value="0">
+                                    <br>
+
+                                    <img src="./room1.jpg" alt="">
+
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
+        
+                                
+                            </section>
+<br>
+                            <section>
+                                
+                                    <h2>Extra Requirements:</h2>
+
+                                    <label for="num">Number of Extra Bed : 8000 LKR - 1 Bed</label>
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <input type="number" name="num" id="extrabed" min="0" value="0">
+                                    <br>
+                                    
+                                    <label for="num">Meals ( Kids above 5 years) : 5000 LKR</label>
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <input type="number" name="num" id="Meals" min="0" value="0">
+                                    
+                                  
+                                    <p>
+                                        <br>
+
+
+
+                                        <label for="wifi">Wifi</label>
+                                        <input type="checkbox" name="Wifi" id="Wifi" value="Wifi">
+                                    </p>
+                                    <p>
+                                        <label for="garden-view">Garden View</label>
+                                        <input type="checkbox" name="garden" id="garden-view" value="garden-view">
+                                    </p>
+                                    <p>
+                                        <label for="pool view">Pool View</label>
+                                        <input type="checkbox" name="pool" id="pool-view" value="pool-view">
+                                    </p>
+                              
+                                
+                            </section>
+
+                
+            </section>
+
+
+
+            
+            <button type="submit" value="Submit" id="submit-btn">Book Now</button>
+
+            <button type="submit" id="loyal" >Loyalty Points</button>
+
+            <button type="submit" value="Submit" id="Fav-btn">ADD TO FAVOURITE</button>
+
+
+            </div>
+
+            <div id="room-summaryTwo">
+
+                <h2> Overall Booking </h2>
+            
+                <table id="summaryTableTwo">
+            
+                  </td id="summaryCell"> 
+                  </td>
+                        
+                </table>
+            
+                <p id="hotelTotalCost">  Hotel Booking Total Cost : 0 LKR   
+                </p>
+            
+            
+            </div>
+            
+            
+        </form>
+        
+    </div>
+</section>
+
+<div id="summaryOne">
+
+    <h2> Current Booking For Rooms </h2>
+
+  
+    <table id="summaryTableOne">
+
+            <tr>
+              <th> Category </th>
+              <th> Details/Quantity </th>
+            </tr>
+
+              <tr>
+                <td>Name</td>
+                <td><span id="tableName"></span></td>
+              </tr>
+
+              <tr>
+                <td>Mobile Number</td>
+                <td id="tableMobile"></td>
+              </tr>
+
+            <tr>
+                <td>Email</td>
+                <td id="tableEmail"></td>
+            </tr>
+
+            <tr>
+              <td>Date</td>
+              <td id="tableDate"></td>
+            </tr>
+
+            <tr>
+                <td>Days</td>
+                <td id="tableDays"></td>
+            </tr>
+
+            
+
+            <tr>
+              <td>Single Rooms</td>
+              <td id="tableSingleRooms"></td>
+            </tr>
+
+            <tr>
+
+            <tr>
+                <td> Double Rooms</td>
+                <td id="tableDoubleRooms"></td>
+            </tr>
+
+            <tr>
+                <td> Triple Rooms</td>
+                <td id="tableTripleRooms"></td>
+            </tr>
+
+            <tr>
+              <td>Adults</td>
+              <td id="tableAdults"></td>
+            </tr>
+
+            <tr>
+              <td>Kids</td>
+              <td id="tableKids"></td>
+            </tr>
+
+            <tr>
+                <td> Extra Bed </td>
+                <td id="tableExtraBed"></td>
+            </tr>
+
+            <tr>
+                <td> Meals </td>
+                <td id="tableMeals"></td>
+            </tr>
+
+            <tr>
+                <td>WIFI</td>
+                <td id="tableWifi"></td>
+              </tr>
+
+            <tr>
+                <td>Pool View </td>
+                <td id="tablePool"></td>
+            </tr>
+
+            <tr>
+                <td> Garden View </td>
+                <td id="tableDardenView"></td>
+            </tr>
+
+
+
+
+
+    </table>
+        
+
+    <p id="hotelCost">  Hotel Booking Cost : 0 LKR </p>
+
+
+
+</div>
+
+<br>
+ <section id="adventure-part">
+        <section class="hero">
+            <section class="registration-form">
+                <h1>Book an Adventure</h1>
+                <form action="#" method="post" id="advenBook">
+
+                    <h2>Available Adventure </h2>
+    
+                    <p>
+                        <label for="adventureType"> Adventure Type:</label>
+                        <select id="adventureType" required>
+                            <option value="dive"  name="dive" id="dive" > Diving </option>
+                        </select>
+                    </p>
+
+    
+<br>
+<br>
+                    <section>
+                        <h2>Local Adult (for 1 Hour) : 5000 LKR</h2>
+                        
+                            <p>
+                                
+                                
+                                <label for="num">No. of Adults: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="number" name="num" id="numlocaladults" min=""0 value="0">
+                                <br>
+                            </p>
+    
+                            
+                        </section>
+
+                        
+                    <section>
+                        <h2>Local Kid (above 5 years) : 2000 LKR</h2>
+                        
+                            <p>
+                                
+                                
+                                <label for="num">No. of Kids: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="number" name="num" id="numlocalkids" min="0" value="0">
+                                <br>
+                            </p>
+    
+                            
+                        </section>
+
+                        
+                    <section>
+                        <h2>Foreign Adults (10,000LKR)</h2>
+                        
+                            <p>
+                                
+                                
+                                <label for="num">No. of Adults: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="number" name="num" id="numforeignadults" min="0" value="0">
+                                <br>
+                            </p>
+    
+                            
+                        </section>
+
+                        
+                    <section>
+                        <h2>Foreign Kids (5000LKR)</h2>
+                        
+                            <p>
+                                
+                                
+                                <label for="num">No. of Kids: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="number" name="num" id="numforeignkids" min="0" value="0">
+                                <br>
+                            </p>
+    
+                            
+                        </section>
+    
+<br>
+                    <section>
+                                
+                        <h2>Do you need a guide during diving:</h2>
+                        <p>
+                            <label for="guider">Adult - 1000LKR extra will be charged</label>
+                            <input type="checkbox" name="guideAdventure" id="AdultguideAdventure" >
+                        </p>
+                        <p>
+                            <label for="guider-kid">Kids - 500LKR extra will be charged </label>
+                            <input type="checkbox" name="guideAdventure" id="KidsguideAdventure">
+                        </p>
+
+                    
+                </section>
+    
+                    
+    
+    
+
+
+<br>
+<br>
+
+                    
+
+                    <button type="advsubmit" id="Adv-submit">BOOK ADVENTURE</button>
+                    </form>
+            </section>
+    
+    
+        </section>
+    </section>
+    
+    
+    </section>
+    
+    
+    
+
+
+
+
+
+
+
+
+<section>
+    
+</section>
+</section>
+
+
+
+
+
+</section>
+
+</div>
+
+
+
+
+
+<div id="summaryTwo">
+
+    <h2> Current Booking For Adventure </h2>
+
+  
+    <table id="summaryTableTwo">
+
+            <tr>
+              <th> Category </th>
+              <th> Details/Quantity </th>
+            </tr>
+
+              
+
+            <tr>
+                <td> Adventure - Local Adults </td>
+                <td id="tableLocalAdult"></td>
+              </tr>
+
+              <tr>
+                  <td> Adventure - Hours (Local Adult) </td>
+                  <td id="tableHoursLocalAdult"></td>
+              </tr>
+
+              <tr>
+                <td> Adventure -Local Kid </td>
+                <td id="tableLocalKid"></td>
+              </tr>
+
+
+              <tr>
+                  <td> Adventure - Foreign Adults  </td>
+                  <td id="tableForeignAdult"></td>
+              </tr>
+
+              <tr>
+                  <td> Adventure - Foreign Kid </td>
+                  <td id="tableForeignKid"></td>
+                </tr>
+
+              <tr>
+                  <td> Adventure - Guide for Adult  </td>
+                  <td id="tableGuideAdult"></td>
+              </tr>
+
+              <tr>
+                  <td> Adventure - Guide for Kid </td>
+                  <td id="tableGuideKid"></td>
+              </tr>
+
+
+
+    </table>
+        
+
+    
+
+    <p id="adventureCost">  Adventure Booking Cost : 0 LKR </p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <section class="about-img">
+        <img src="./about footer.png" alt="" width="100%">
+    
+    </section>
+
+    <section class="about-footer">
+        <section class="socia">
+            <a href="https://www.instagram.com/heritancehotelsandresorts/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCygYnLZET_WbkdwtqTq3nqQ"><i class="fab fa-youtube"></i></a>
+            <a href="https://web.facebook.com/HeritanceHotelsandResorts/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+            <a href="http://127.0.0.1:5502/heritance%20kandalama.htm#"><i class="fab fa-linkedin"></i></a>
+        </section>
+    
+        <ul class="list">
+            <li>
+                <a href="./home new.htm">Home</a>
+            </li>
+            <li>
+                <a href="./photogallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="./about us.htm">About</a>
+            </li><li>
+                <a href="./dinning.htm">Dinning</a>
+            </li><li>
+                <a href="./meeting.htm">Meetings</a>
+            </li>
+        </ul>   
+    <p class="copywrite">
+    
+    All Copyrights Reserved By Aitken Spence Hotel Management - © 2023
+    </p>
+    
+        </section>
+    
+    
+    
+    <script src="./main.js"></script>
+    </body>
+    </html>
